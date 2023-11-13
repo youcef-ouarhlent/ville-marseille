@@ -1,13 +1,13 @@
 @font-face {
-    font-family: opensans;
-    src: url(typo/atwriter.ttf) format(TrueType);
+    font-family: dash;
+    src: url(typo/Dash-Horizon-Demo.otf) format(TrueType);
 }
 
 html,body {
     margin: 0; 
     background-color: rgb(235, 230, 230);
     font-family:opensans;
-    color: rgb(2, 172, 224);
+    color: rgb(1, 144, 236);
 }
 
 
@@ -32,7 +32,7 @@ header {
 }
 
 .menu a { 
-    background-color:rgb(2, 172, 224) ;
+    background-color:rgb(1, 144, 236) ;
     color:white ;
     display: block;
     text-decoration: none;
@@ -44,7 +44,11 @@ header {
 
 #taille-menu {
     width: 100px;
-    height: 40px;
+    width: 100px;
+    text-align: center;
+    PADDING: 10px;
+    border: 1px solid;
+    border-radius: 10px;
      
 
 }
@@ -65,10 +69,11 @@ header {
     display: block;
 }
 
-.submenu li a {
+.submenu li a { 
     padding: 10px;
-    text-decoration: none;
+    border:1px solid;
     display: block;
+    border-radius: 10px;
 }
 
 .menu li:hover .submenu {
@@ -82,8 +87,8 @@ header {
 
 .overlay {
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 20%;
+    left: 48%;
     transform: translate(-50%, -50%);
     width: 200px;
     z-index: 1; /* Place le logo au-dessus de l'image */
@@ -99,7 +104,7 @@ li .overlay1{
 .overlay1 {
     position: absolute;
     top: 10%;
-    left: 5%;
+    left: 150px;
     transform: translate(-50%, -50%);
     width: 200px;
     z-index: 1; /* Place le logo au-dessus de l'image */   
