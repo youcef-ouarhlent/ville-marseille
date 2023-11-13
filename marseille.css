@@ -18,7 +18,7 @@ header {
 
 
 
-.menu { border: solid;
+.menu { 
     list-style-type: none;
     text-align: center;
     display: flex;
@@ -78,6 +78,7 @@ header {
 
 .menu li:hover .submenu {
     display: block;
+    opacity: 80%;
 }
 
 .effet {
@@ -108,4 +109,14 @@ li .overlay1{
     transform: translate(-50%, -50%);
     width: 200px;
     z-index: 1; /* Place le logo au-dessus de l'image */   
+}
+
+
+
+#titre-marseille { 
+   
+    display: block;
+    align-items: center;
+    margin: auto;
+
 }
