@@ -21,6 +21,7 @@ header {
 
 
 
+
 .menu { 
     list-style-type: none;
     text-align: center;
@@ -29,15 +30,15 @@ header {
     
 }
 
-.menu li { 
-    display: inline-block;
-    
+.icone-place {
+    display: flex;
+    flex-direction:row;
 }
 
 .menu a { 
     background-color:rgb(1, 144, 236) ;
     color:white ;
-    display: block;
+    
     text-decoration: none;
     font-size: large;
     justify-content: center; 
@@ -61,21 +62,17 @@ header {
 }
 
 .submenu {
-    display: none;
-    position: absolute;
-    list-style-type: none;
+    
     margin-left: -50px;
     
 }
 
-.submenu li {
-    display: block;
-}
+
 
 .submenu li a { 
     padding: 10px;
     border:1px solid;
-    display: block;
+    
     border-radius: 10px;
 }
 
@@ -83,6 +80,7 @@ header {
     display: block;
     opacity: 80%;
 }
+
 
 
 
@@ -117,12 +115,7 @@ li .overlay1{
     z-index: 1; /* Place le logo au-dessus de l'image */   
 }
 
-.icone-taille {
-    width: 20px;
-    height: 20px;
-    display: flex;
-    flex-direction: row;
-}
+
 
 
 #titre-marseille { 
