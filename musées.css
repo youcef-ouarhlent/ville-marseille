@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'open sans';
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.parties{
+    padding: 1%;
+    height: auto;
+    text-align: center;
+    margin: 0 5%;
+    background-color:rgba(194, 194, 209, 0.619);
+    border-radius: 15px;
+    background-size: contain;
+}
+.images-musées{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+body{
+    margin: 0;
+    font-family: 'open sans';
+}
+.paragraphes-musées{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.titres-musées{
+    margin: 0;
+    background-color: rgb(1, 157, 219);
+    padding: 1%;
+}
+.expos{
+    margin-bottom: 2%;
+}
+.expos-mucem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.expos-mucem img{
+    height: auto;
+    width: 50%;
+    margin: 1% 1%;
+}
+#bloc-image-mucem img{
+    width: 100%;
+    
+}
+#histoire-du-monde{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
