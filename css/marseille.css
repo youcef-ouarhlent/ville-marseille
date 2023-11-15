@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: delight;
-    src: url(typo/Fruits\ Delight.otf) format(TrueType);
+    src: url(../typo/Fruits\ Delight.otf) format(TrueType);
 }
 
 html,body {
