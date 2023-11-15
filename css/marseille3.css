@@ -16,6 +16,7 @@
     width: 100%;
     height: auto;
     position: relative;
+    transition: 1s;
 }
 body{
     overflow-x: hidden;
@@ -45,6 +46,7 @@ body{
 }
 #bloc-image-mucem img{
     width: 100%;
+    transition: 1s;
     
 }
 #histoire-du-monde{
