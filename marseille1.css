@@ -1,0 +1,118 @@
+.titreaccueil {
+    color: white;
+    font-size: 30px;
+    width: 80%;
+    height: 100px;
+    background-color: rgb(0,71,163)
+    ;
+    border: solid white 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.actualité {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+.imageactualité1 {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.image1actualité1 {
+     position: relative;
+    z-index: 1;
+    width: 400px;
+    height: 225px;
+    opacity: 1;
+    border: solid white 1px;
+    border-radius: 10px;
+    text-align: center;
+}
+#paragrapheactualité1 {
+    position: absolute;
+    z-index: 2;
+    color: rgb(0, 1, 2)
+    ;
+    opacity: 0;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+    border-radius: 10px;
+    text-align: center;
+}
+#paragrapheactualité1:hover {
+    opacity: 1;
+    background-color: white;
+
+}
+.imageactualité2 {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.image2actualité2 {
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    height: 225px;
+    opacity: 1;
+    border: solid white 1px;
+    border-radius: 10px;
+    text-align: center;
+}
+#paragrapheactualité2 {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    opacity: 0;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+    border-radius: 10px;
+    text-align: center;
+}
+#paragrapheactualité2:hover {
+    opacity: 1;
+    background-color: white;
+    ;
+}
+#histoire-musée-randonnées{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    border-top: 5px solid;
+}
+#Plages-Parcs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+
+
