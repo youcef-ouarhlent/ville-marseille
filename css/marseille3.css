@@ -3,59 +3,76 @@
     src: url(OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-.parties{
+.parties {
     padding: 1%;
     height: auto;
     text-align: center;
     margin: 0 5%;
-    background-color:rgba(194, 194, 209, 0.619);
+    background-color: rgba(194, 194, 209, 0.619);
     border-radius: 15px;
     background-size: contain;
 }
-.images-musées{
+
+.images-musées {
     width: 100%;
     height: auto;
     position: relative;
     transition: 1s;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
-.paragraphes-musées{
+
+.paragraphes-musées {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
-.titres-musées{
+
+.titres-musées {
     margin: 0;
     background-color: rgb(1, 157, 219);
     padding: 1%;
 }
-.expos{
+
+.expos {
     margin-bottom: 2%;
 }
-.expos-mucem{
+
+.expos-mucem {
     width: 100%;
     display: flex;
     align-items: center;
 }
-.expos-mucem img{
+
+.expos-mucem img {
     height: auto;
     width: 50%;
     margin: 1% 1%;
 }
-#bloc-image-mucem img{
+
+#bloc-image-mucem img {
     width: 100%;
     transition: 1s;
-    
+
 }
-#histoire-du-monde{
+
+#histoire-du-monde {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.images-musées:hover{
+@media screen and (max-width:768px) {
+    .expos-mucem,#histoire-du-monde{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.images-musées:hover {
     width: 105%;
 }
-#histoire-du-monde img:hover{
+
+#histoire-du-monde img:hover {
     width: 105%;
 }
