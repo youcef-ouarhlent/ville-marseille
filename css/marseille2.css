@@ -1,0 +1,207 @@
+
+.histoire1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+    padding-top: 150px;
+
+}
+.histoire2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 250px;
+    padding-top: 150px;
+
+}
+.imagehistoire1 {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+.image1histoire1 {
+     position: relative;
+    z-index: 1;
+    width: 400px;
+    height: 225px;
+    opacity: 1;
+    border: solid white 1px;
+    border-radius: 10px;
+    text-align: center;
+}
+.contenu1{
+    text-align: center;
+}
+.contenu2{
+    text-align: center;
+}
+.contenu3{
+    text-align: center;
+}
+.contenu4{
+    text-align: center;
+}
+#paragraphehistoire1 {
+    position: absolute;
+    z-index: 2;
+    color: rgb(0, 1, 2)
+    ;
+    opacity: 0;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 332px;
+}
+#paragraphehistoire1:hover {
+    opacity: 1;
+    background-color: white;
+
+}
+.imagehistoire2 {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+.image2histoire2 {
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    height: 225px;
+    opacity: 1;
+    border: solid white 1px;
+    border-radius: 10px;
+    text-align: center;
+}
+#paragraphehistoire2 {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    opacity: 0;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 332px;
+    
+}
+#paragraphehistoire2:hover {
+    opacity: 1;
+    background-color: white;
+    ;
+}
+.imagehistoire3 {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.image3histoire3 {
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    height: 225px;
+    opacity: 1;
+    border: solid white 1px;
+    border-radius: 10px;
+    text-align: center;
+}
+#paragraphehistoire3 {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    opacity: 0;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 332px;
+    
+}
+#paragraphehistoire3:hover {
+    opacity: 1;
+    background-color: white;
+    ;
+}
+.imagehistoire4 {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.image4histoire4 {
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    height: 225px;
+    opacity: 1;
+    border: solid white 1px;
+    border-radius: 10px;
+    text-align: center;
+}
+#paragraphehistoire4 {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    opacity: 0;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 332px;
+    
+}
+#paragraphehistoire4:hover {
+    opacity: 1;
+    background-color: white;
+    ;
+}
+
+
+
+
+
+
+
+
+
