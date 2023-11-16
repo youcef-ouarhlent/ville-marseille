@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="../css/marseille7.css">
+    <link rel="stylesheet" href="../css/marseille.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav id="contenair-nav">
+
+            <img class="effet" id="tailles-photo" src="../images-header/david-vives-VP-Xs6MF0Fk-unsplash.jpg"
+                alt="pano-marseille">
+            <img class="overlay" src="../logo/logo-header.png" alt="logo-premier-plan">
+
+            <ul class="menu">
+                <li class="overlay1"><a id="taille-menu" href="">☰ MENU</a>
+                    <ul class="submenu">
+                        <li><a href="../html/marseille1.html">Accueil</a></li>
+                        <li><a href="../html/marseille2.html">Histoire</a></li>
+                        <li><a href="../html/marseille4.html">Randonnées</a></li>
+                        <li><a href="../html/marseille5.html">Les plages</a></li>
+                        <li><a href="../html/marseille6.html">Parcs publics</a></li>
+                        <li><a href="../html/marseille3.html">Musées</a></li>
+                        <li><a href="../html/marseille7.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <h3>Contact</h3>
+
+        <form action="" method="post">
+
+            <section>
+                <label for="civilite">Civilité</label><br>
+                <select name="civilite" id="civilite">
+                    <option value="" disabled selected hidden></option>
+                    <option value="monsieur">Monsieur</option>
+                    <option value="madame">Madame</option>
+                </select>
+            </section><br>
+
+            <section>
+                <label for="prenom">Prénom</label><br>
+                <input type="text" id="prenom" name="prenom" placeholder="Martin" required>
+            </section><br>
+
+            <section>
+                <label for="nom">Nom</label><br>
+                <input type="text" id="nom" name="nom" placeholder="Dupont" required>
+            </section><br>
+
+            <section>
+                <label for="adresse">Adresse Postale</label><br>
+                <input type="text" id="adresse" name="adresse" placeholder="8 rue d'Hozier 13002 Marseille" required>
+            </section><br>
+
+            <section>
+                <label for="checkbox">J'accepte la politique de confidentialité de l'entreprise</label><br>
+                <input type="checkbox" id="checkbox" name="checkbox" required>
+            </section>
+
+            <section>
+                <label for="message"></label><br>
+                <textarea name="message" id="message" cols="50" rows="10" placeholder="Votre message"></textarea>
+            </section><br>
+
+            <section>
+                <button type="submit">Envoyer mon message</button>
+            </section>
+        </form>
+
+    </main>
+
+    <footer>
+        <section class="footer-content">
+            <h3 id="titre-footer">Ville de Marseille</h3>
+            <ul class="socials">
+                <li><a href="https://facebook.com/marseilleville/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/marseille"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/villemarseille/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/user/VilledeMarseille"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+            <p id="p-footer">copyright &copy;2023 Ville de Marseille. designed by <span>Manon,Youcef,Jean</span></p>
+        </section>
+    </footer>
+
+
+</body>
+
+</html>
