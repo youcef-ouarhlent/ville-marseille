@@ -1,6 +1,5 @@
 .presentation-calanques {
     position: relative;
-    border: solid;
     margin-top: 5%;
     
 }
@@ -20,6 +19,7 @@
     padding: 5px;
     margin-left:20px;
     border-radius: 10px;
+    color: rgb(1, 144, 236);
 }
 
 .texte-sormiou {
@@ -52,4 +52,29 @@ iframe {
 
 .texte-acces {
     padding: 20px;
+    font-size: small;
 }
+
+
+.contenair-photo { 
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 1%;
+}
+
+.photo-rando { 
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Rendre l'image initialement ronde avec un rayon égal à 50% de la largeur/hauteur */
+    transition: all 0.5s; /* Ajouter une transition pour une animation fluide sur toutes les propriétés */
+}
+
+.photo-rando:hover {
+    width: 400px; 
+    height: 320px;
+    border-radius: 10px;
+    
+}
+
