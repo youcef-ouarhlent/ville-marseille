@@ -1,0 +1,91 @@
+.slider-figure img {
+    width: 20%;
+    height: auto;
+    float: left;
+    border-top: solid 10px;
+    border-bottom: solid 10px;
+    border-color: rgb(1, 157, 219);
+    
+}
+
+.slider-figure {
+    width: 500%;
+    margin: 0;
+    text-align: left;
+    position: relative;
+    animation: 20s slidy infinite;
+}
+
+.slider {
+    width: 80%;
+    overflow: hidden;
+    margin: 2%;
+}
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+
+    20% {
+        left: 0%;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+}
+
+.parcs {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+
+    justify-items: center;
+    align-items: center;
+    background-image: url(../images-parcs/herbe.jpg);
+    background-size: cover;
+}
+
+.titres-parcs {
+    text-align: center;
+    background-color: rgb(1, 157, 219);
+}
+.textes-parcs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.416);
+    padding: 1%;
+    border-radius: 15px;
+    margin: 2%;
+}
+@media screen and (max-width:768px) {
+    .parcs{
+        display: flex;
+        flex-direction: column;
+    }    
+}
