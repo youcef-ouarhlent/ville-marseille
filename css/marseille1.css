@@ -17,7 +17,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     margin-bottom: 50px;
@@ -109,13 +109,11 @@
 #histoire-musée-randonnées{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
     text-align: center;
-    border-top: 5px solid;
     color: rgb(1, 144, 236);
-    padding-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+   
 }
 #Plages-Parcs{
     display: flex;
@@ -142,4 +140,17 @@
     border-radius: 10px;
 }
 
-
+@media screen and (max-width: 1200px)  {
+   .actualité{
+    flex-direction: column;
+    }
+    #histoire-musée-randonnées{
+        flex-direction: column;
+    }
+    #Plages-Parcs{
+        flex-direction: column;
+    }
+    .titreaccueil{
+        margin-left: 50px;
+    }
+}

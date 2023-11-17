@@ -1,4 +1,5 @@
 
+
 .histoire1 {
     width: 100%;
     height: auto;
@@ -22,13 +23,13 @@
 
 }
 .imagehistoire1 {
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 150px;
 
 }
 .image1histoire1 {
@@ -66,7 +67,7 @@
     transition: 0.8s;
     border-radius: 10px;
     text-align: center;
-    margin-top: 332px;
+    margin-top: 400px;
 }
 #paragraphehistoire1:hover {
     opacity: 1;
@@ -74,14 +75,14 @@
 
 }
 .imagehistoire2 {
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 
 }
 .image2histoire2 {
@@ -106,7 +107,7 @@
     transition: 0.8s;
     border-radius: 10px;
     text-align: center;
-    margin-top: 332px;
+    margin-top: 400px;
     
 }
 #paragraphehistoire2:hover {
@@ -115,8 +116,8 @@
     ;
 }
 .imagehistoire3 {
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,7 +148,7 @@
     transition: 0.8s;
     border-radius: 10px;
     text-align: center;
-    margin-top: 332px;
+    margin-top: 400px;
     
 }
 #paragraphehistoire3:hover {
@@ -156,8 +157,8 @@
     ;
 }
 .imagehistoire4 {
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,7 +189,7 @@
     transition: 0.8s;
     border-radius: 10px;
     text-align: center;
-    margin-top: 332px;
+    margin-top: 400px;
     
 }
 #paragraphehistoire4:hover {
@@ -196,12 +197,19 @@
     background-color: white;
     ;
 }
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 1200px)  {
+    .histoire1 {
+       display: flex;
+        flex-direction: column;
+    }
+    .imagehistoire1 {
+        padding-bottom: 400px;
+    }
+    .histoire2 {
+       display: flex;
+        flex-direction: column;
+    }
+    .imagehistoire4 {
+        padding-top: 400px;
+}
+}
