@@ -17,17 +17,18 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 50px;
+    padding-top: 100px;
 
 }
 .imageactualité1 {
     width: 600px;
     height: 300px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -40,6 +41,9 @@
     opacity: 1;
     border: solid white 1px;
     border-radius: 10px;
+    text-align: center;
+}
+.contenu{
     text-align: center;
 }
 #paragrapheactualité1 {
@@ -55,6 +59,7 @@
     transition: 0.8s;
     border-radius: 10px;
     text-align: center;
+    margin-top: 10px;
 }
 #paragrapheactualité1:hover {
     opacity: 1;
@@ -65,7 +70,7 @@
     width: 600px;
     height: 300px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -93,6 +98,8 @@
     transition: 0.8s;
     border-radius: 10px;
     text-align: center;
+    margin-top: 10px;
+    
 }
 #paragrapheactualité2:hover {
     opacity: 1;
@@ -102,17 +109,48 @@
 #histoire-musée-randonnées{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     text-align: center;
-    border-top: 5px solid;
+    color: rgb(1, 144, 236);
+   
 }
 #Plages-Parcs{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     text-align: center;
+    color: rgb(1, 144, 236);
+    
+}
+#Parcs img{
+    border-radius: 10px;
+}
+#Plages img{
+    border-radius: 10px;
+}
+#musées img{
+    border-radius: 10px;
+}
+#randonnées img{
+    border-radius: 10px;
+}
+#Histoire img{
+    border-radius: 10px;
 }
 
-
+@media screen and (max-width: 1200px)  {
+   .actualité{
+    flex-direction: column;
+    }
+    #histoire-musée-randonnées{
+        flex-direction: column;
+    }
+    #Plages-Parcs{
+        flex-direction: column;
+    }
+    .titreaccueil{
+        margin-left: 50px;
+    }
+}
