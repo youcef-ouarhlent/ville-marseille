@@ -58,7 +58,6 @@
     border-radius: 10px;
     width: 400px;
     height: auto;
-
     box-shadow: 2px 2px 8px rgb(1, 144, 236);
 }
 
@@ -66,3 +65,48 @@
     transform: scale(1.4);
 }
 
+@media screen and (max-width: 800px) {
+   .placement-texteplage  { 
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .photo-plage   {
+        width: 130px;
+        height: auto;
+        transition: transform 3s;
+    }
+
+    .contenair-plage-photo {
+        margin: 2px;
+        padding: 3px;
+        display: flex;
+       justify-content: space-around;
+    }
+
+}
+
+@media screen and (min-width:801px) and (max-width: 1500px) {
+    .placement-texteplage  { 
+         font-size: small;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     }
+ 
+     .photo-plage   {
+         width: 230px;
+         height: auto;
+         transition: transform 3s;
+     }
+ 
+     .contenair-plage-photo {
+         margin: 2px;
+         padding: auto;
+         display: flex;
+        justify-content: space-around;
+     }
+ 
+ }

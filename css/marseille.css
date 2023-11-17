@@ -188,7 +188,37 @@ footer{
 
 }
 .socials a:hover i{
-    color: aqua;
+    color: rgb(1, 144, 236);
 }
 
 
+@media screen and (max-width: 800px) {
+    .overlay1 {
+        position: absolute;
+        top: 15%;
+        margin-left: 3%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        z-index: 1; /* Place le logo au-dessus de l'image */ 
+        
+    }
+
+    #taille-menu {
+        width: 50%;
+        font-size: small;
+        text-align: center;
+        PADDING: 5px;
+        border: 1px solid;
+        border-radius: 10px;
+    }
+
+    .overlay { 
+        position: absolute;
+        top: 28%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        width: 15%;
+        z-index: 1; /* Place le logo au-dessus de l'image */
+    }
+}
