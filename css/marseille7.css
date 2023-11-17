@@ -9,3 +9,8 @@ form{
     flex-direction: column;
     align-items:  center;
 }
+input,textarea,select{
+    box-shadow: 5px 5px 5px rgb(1, 157, 219);
+    border: none;
+    
+}

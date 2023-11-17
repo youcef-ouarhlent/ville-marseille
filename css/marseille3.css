@@ -24,12 +24,6 @@ body {
     overflow-x: hidden;
 }
 
-.paragraphes-musées {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-}
-
 .titres-musées {
     margin: 0;
     background-color: rgb(1, 157, 219);
@@ -75,4 +69,11 @@ body {
 
 #histoire-du-monde img:hover {
     width: 105%;
+}
+tbody td{
+    text-align: center;
+}
+td,tr{
+    width: 30%;
+    background-color: rgba(194, 194, 209, 0.619);
 }
